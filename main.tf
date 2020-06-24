@@ -9,6 +9,6 @@ resource "tfe_workspace" "xn_test" {
     identifier         = "jacobm3/xn_test"
   }
 
-  depends_on = gitlab_project.test
+  depends_on = [gitlab_project.test]
 }
 
