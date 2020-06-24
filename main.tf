@@ -2,7 +2,7 @@
 #     name = "xn_test"
 # }
 
-resource "tfe_workspace" "test" {
+resource "tfe_workspace" "xn_test" {
   name         = "xn_test"
   organization = "jacobm3"
 }
