@@ -1,6 +1,6 @@
 resource "gitlab_project" "test" {
      name = "xn_test"
-     initialize_with_readme = True
+     initialize_with_readme = true
 }
 
 resource "time_sleep" "wait_30_seconds" {
