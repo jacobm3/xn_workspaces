@@ -23,4 +23,7 @@ variable "vcs_oauth_token_id" {
   description = "OAuth token ID for an existing VCS connection in TFE"
 }
 
-
+variable "pgp_key" {
+  type = string
+  description = "Either a base-64 encoded PGP public key, or a keybase username in the form keybase:some_person_that_exists, for use in the aws_iam_access_key encrypted_secret output attribute." 
+}
